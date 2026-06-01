@@ -8,7 +8,7 @@ A multi-app school management ecosystem built with Flutter and Firebase. The pla
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    HQ Master Control (Web)                   │
+│                    HQ Master Control (Desktop)                   │
 │          Manages all schools, billing, broadcasts           │
 └──────────────────────────┬──────────────────────────────────┘
                            │ Firebase (Firestore + Realtime DB)
