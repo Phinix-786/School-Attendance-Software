@@ -1,0 +1,43 @@
+name: teacher_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Firebase ───────────────────────────────────────────────
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0 # show heads-up / foreground notifications
+
+  # ── Existing ───────────────────────────────────────────────
+  shared_preferences: ^2.3.2
+  uuid: ^4.2.2
+  intl: ^0.18.1
+  connectivity_plus: ^5.0.2
+  cupertino_icons: ^1.0.8
+  onesignal_flutter: ^5.2.6
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"

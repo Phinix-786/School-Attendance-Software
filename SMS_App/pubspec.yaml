@@ -1,0 +1,45 @@
+name: sms_sender
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+
+  # Background service (keeps running after app is minimized / screen off)
+  flutter_background_service: ^5.0.5
+
+  # Local notifications (shows progress while sending in BG)
+  flutter_local_notifications: ^17.2.2
+
+  # Persistence
+  shared_preferences: ^2.3.2
+
+  # Permission handling
+  permission_handler: ^11.3.1
+
+  # Date formatting
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+  uuid: ^4.5.3
+  connectivity_plus: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
